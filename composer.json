@@ -1,0 +1,19 @@
+{
+    "name": "soup-bowl/wposbridge",
+	"description": "Bridges the user management from WordPress into OpenSimulator.",
+    "autoload": {
+        "classmap": [
+            "class-profile.php",
+            "class-settings.php",
+            "class-opensim.php",
+            "class-xmlrpc.php"
+		]
+    },
+    "require": {
+        "phpxmlrpc/phpxmlrpc": "^4.4"
+    },
+    "require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+		"wp-coding-standards/wpcs": "*"
+	}
+}
